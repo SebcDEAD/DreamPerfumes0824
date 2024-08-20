@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txtnCodVendedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Código de Vendedor"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtContrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtCID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CID"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtPostAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dirección Postal"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Teléfono"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtTrasNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre Transferencia"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtCin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CIN"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtTransNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número Transferencia"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <EditText
+            android:id="@+id/txtBanco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Banco"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_200"
+            android:background="@color/white"
+            android:padding="8dp" />
+
+        <Button
+            android:onClick="guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registrar"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:padding="12dp" />
+
+        <Button
+            android:onClick="atras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atrás"
+            android:textColor="@color/white"
+            android:background="@color/teal_200"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
